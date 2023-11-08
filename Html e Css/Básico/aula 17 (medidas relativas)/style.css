@@ -1,0 +1,22 @@
+html{
+    font-size: 22px;
+    background-color: #ccf;
+}
+
+body{
+    background-color: blueviolet;
+    width: 50%;
+
+}
+.pai{
+    background-color: pink;
+    width: 50%;
+}
+/* 1 em =16 pixels 
+    em  herda do pai
+    rem herda da raiz 
+*/
+.filha{
+    background-color: aquamarine;
+    width: 50%;
+}

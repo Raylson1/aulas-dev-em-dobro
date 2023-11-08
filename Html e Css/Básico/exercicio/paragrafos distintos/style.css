@@ -1,0 +1,12 @@
+.margem-padding{
+    margin:  40PX;
+    padding: 20PX;
+}
+
+.estilo-comum{
+    background-color: #f5f5f5;
+}
+
+.estilo-destaque{
+    background-color: #f0CCE2;
+}

@@ -1,0 +1,33 @@
+p{
+    /* define para todos os 4 lados o mesmo valor */
+    margin: 30px; 
+
+    /* define para o topo 30px e baixo 15px para a esquerda e direita */
+    /* margin: 30px 15px; */
+
+    /* define para o topo 30px, 15px para o lado direito, 10px para o lado de baixo e 5px para o lado esquerdo */
+    /* margin: 30px 15px 10px 5px; */
+    
+    /* define as margens especificando exatamente todos os lados */
+    /* margin-top:    30px;
+    margin-right:  30px;
+    margin-bottom: 30px;
+    margin-left:   30px; */
+
+    /* espaçamento dos elementos internos */
+    padding: 50px 40px 25px 5px;
+
+    background-color: chartreuse;
+
+    border-style: dashed;
+    border-width: 50px;
+    border-color: darkgoldenrod;
+}
+
+h1{
+    text-align: center;
+    border-style:solid;
+    border-width: 20px;
+    border-color: blue brown aquamarine blueviolet;
+
+}
