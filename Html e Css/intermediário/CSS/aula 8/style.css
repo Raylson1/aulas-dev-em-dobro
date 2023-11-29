@@ -1,0 +1,39 @@
+p{
+    color: coral;
+    font-size: 24px;
+    font-weight: bold;
+}
+/* 
+.bg{
+    background-color: lightgreen;
+    background-image: url('./images/bgnd.png');    
+}
+
+.bg-image{
+    width: 513px;
+    height: 348px;
+}
+
+.bg-repeat{
+    background-repeat: no-repeat;
+    height: 540px;
+}
+
+.bg-size-cover{
+    background-color: cover;
+    height: 548px;
+}
+
+.bg-fixed{
+    background-attachment: fixed;
+    height: 548px;
+} */
+
+.bg-position{
+    height: 948px;
+    background:black url('./images/bgnd.png')
+    no-repeat right top;    
+}
+
+
+

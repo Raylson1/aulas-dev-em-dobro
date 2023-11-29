@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especificidade e Efeito Cascata</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <style>
+        .container-cascata {
+            background-color: purple;
+        }
+    </style> -->
+    <!-- se desconmentamos o código acima ele irá se sobrepor a qualquer regra CSS externo,
+         ignorando inclusive o efeito cascata
+    -->
+</head>
+<body>
+    <h1>Efeito Cascata</h1>
+    <div class="container-cascata">
+        <h2>container-cascata</h2>
+        <p>Inspecione o código para ver os comentários sobre Especificidade!</p>
+    </div>
+
+    <div class="container-especificidade">
+        <h2>container-especificidade</h2>
+        <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing 
+            elit. Necessitatibus ab molestias alias ratione nesciunt 
+            perspiciatis modi repellendus, odio omnis nostrum cupiditate, 
+            nam earum quas, accusamus deleniti dolorum placeat hic. 
+            Ipsam! 
+        </p>
+    </div>
+</body>
+</html>

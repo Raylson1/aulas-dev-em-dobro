@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário na Prática</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--  <h1>Formulário</h1> 
+    <h3>Formulário com GET</h3>
+    <form method="get" action="index.html">
+        <input type="text" name="q" value="Twitter">
+        <input type="submit" value="Enviar">
+    </form>
+
+    <h3>Formulário com POST</h3>
+    <form method="POST" action="index.html">
+        <input type="text" name="q">
+        <input type="submit" value="Enviar">
+    </form>   -->
+
+    <h1>Cadastre-se</h1> 
+    <br>
+    É rápido e fácil.
+    <form action="index.html" method="get" enctype="multipart/form-data">
+        <input type="text" name="Nome" id="Nome" placeholder="Nome">
+        <input type="text" name="sobrenome" id="sobrenome" placeholder="sobrenome">
+        <input type="text" name="cel-email" id="cel-email" placeholder="celular ou email"> <br>
+        <input type="password" name="password" id="password" placeholder="Nova senha"> <br>
+        <label for="">data de nascimento</label>
+        <select name="dias" id="dias">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+        </select>
+        <select name="mes" id="mes">
+            <option value="jan">jan</option>
+            <option value="Fev">Fev</option>
+            <option value="Mar">Mar</option>
+            <option value="Abr">Abr</option>
+            <option value="Mai">Mai</option>
+            <option value="jun">jun</option>
+        </select>
+        <select name="ano" id="ano">
+            <option value="2023">2023</option>
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+            <option value="2020">2020</option>
+            <option value="2019">2019</option>
+            <option value="2018">2018</option>
+        </select>
+        <br>
+        <label for="">Gênero</label> 
+        <br>
+        <label for="Feminino">Feminino</label>
+        <input type="radio" name="genero" id="Feminino">
+        <label for="Masculino">Masculino</label>
+        <input type="radio" name="genero" id="Masculino" checked>
+        <label for="Personalizado">Personalizado</label>
+        <input type="radio" name="genero" id="Personalizado">
+        <br>
+        <!-- <button ><h2>Cadastre-se</h2></button> -->
+        <input type="file" name="foto" id="foto"> <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
