@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pseudo-Classes</title>
+</head>
+<body>
+    <h1>Pseudo-Classes</h1>
+    <h2>First-Child</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel autem deserunt, veniam alias id beatae et aut explicabo animi distinctio quos expedita nostrum non excepturi aliquam pariatur! Magnam, eum sunt.</p>
+    <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur veritatis iste velit quibusdam quos vero unde officia cum aspernatur enim, nemo dicta totam incidunt a. Quis nulla corporis dignissimos perspiciatis.</p>
+        <p>2 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni temporibus, voluptate dolores incidunt voluptas a qui nam voluptatum, neque, nostrum eius deleniti laborum atque praesentium. Sunt temporibus praesentium nesciunt harum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum voluptas tempore vitae assumenda ullam cum commodi tempora! Corrupti aliquid quidem velit rerum soluta veniam eaque? Rerum veritatis soluta temporibus explicabo.</p>
+    </div>
+    <h2>last-child</h2>
+    <p>
+        Estiliza todos os primeiros filhos de determinado elemento. Como o seletor
+        "p", além da pseudo-classe "first-child" também tem a pseudo-classe
+        "last-child", tanto essa div quanto a div abaixo ficaram iguais.
+    </p>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti esse optio officia cum doloremque maxime debitis provident excepturi quis architecto voluptatem recusandae perferendis suscipit, soluta aliquam. Ea corrupti illo ipsum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae laudantium ipsa illum voluptate, sit porro eius ut ipsam temporibus rerum error placeat sint eum molestias, dolore provident nulla, reprehenderit quas.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste ullam magni quas asperiores totam unde, quaerat mollitia exercitationem aspernatur at quod aliquam voluptatum assumenda, ipsam pariatur! Voluptatum eius eos omnis.</p>
+    </div>
+    <h2>:nth-child</h2>
+    <p>
+        A pseudo-classe nth-child() pode assumir diferentes parâmetros. No exemplo
+        abaixo foi utilizado o parâmetro "even", que estiliza todos os elementos
+        pares filhos de outro elemento.
+      </p>
+      <div>
+        <ul>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+          <li>Item 4</li>
+        </ul>
+      </div>
+  
+      <h2>:nth-last-child</h2>
+      <p>
+        Diferente da :nth-child, esta pseudo-classe começa sua contagem do último
+        pro primeiro filho.
+      </p>
+  
+      <h2>:not()</h2>
+      <p>
+        Estiliza todos os elementos (por exemplo, parágrafos ou divs) que não
+        tiverem determinada classe. No exemplo abaixo apenas o Item 2 possui a
+        classe "teste", que foi escolhida para não ser estilizada.
+      </p>
+      <div>
+        <ol>
+          <li>Item 1</li>
+          <li class="teste">Item 2</li>
+          <li>Item 3</li>
+          <li>Item 4</li>
+        </ol>
+      </div>
+  
+      <h2>:only-child</h2>
+      <div>
+        <p>Estiliza determinado elemento filho somente quando ele não tem elementos irmãos, como esse parágrafo solitário dentro de uma div :( neste caso somente ele, dentre todos os parágrafos da página, está sendo estilizado com a cor rosa.</p>
+      </div>
+      <div>
+        <p>O atual parágrafo e o parágrafo abaixo estão dentro de outra div, por isso não foram estilizados com a cor rosa (não são filhos únicos e sim, irmãos). Além disso, as cores roxa e azul estão sendo aplicadas pelas pseudo-classes :first-child e :last-child</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque repudiandae obcaecati molestias pariatur facilis. Fuga molestias dignissimos maiores et fugit eligendi repellat quasi nemo, voluptatibus itaque sequi quia cum voluptate.</p>
+      </div>
+
+
+</body>
+</html>
