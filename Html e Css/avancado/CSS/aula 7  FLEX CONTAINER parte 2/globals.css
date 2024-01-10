@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 400px; 
+    border: 1px solid rgb(8, 8, 8);
+}
+
+.item{
+    background-color: rgb(195,145,241);
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.justify-content .item1,
+.justify-content .item3{
+    width: 80px;
+}
+
+
+
+
+

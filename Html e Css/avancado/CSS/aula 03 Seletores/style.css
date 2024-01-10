@@ -7,5 +7,38 @@ h1{
 }
 
 #menu{
-    
+    margin-left: 100px;
+}
+
+*{
+padding: 0;
+font-size: 20PX;
+}
+
+.titulo.laranja{
+    color: orange;
+}
+
+.titulo.vermelho{
+    color: red;
+}
+
+p, span{
+    font-size: 10px;
+}
+
+.sobre .texto{
+    color: palevioletred;
+}
+
+div > p{
+    color: royalblue;
+}
+
+div + p{
+    color: green;
+}
+
+a[href="google.com"]{
+    color: brown;
 }
